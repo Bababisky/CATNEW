@@ -44,7 +44,7 @@ export function Header() {
             className="flex items-center hover:opacity-80 transition-opacity"
           >
             <img
-              src="/images/logos/Yip-NEXT.png"
+              src="/images/logos/AW_NEXT_2.png"
               alt="YIP IN TSOI"
               className="h-12 w-auto"
             />
