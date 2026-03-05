@@ -75,7 +75,7 @@ export function Header() {
                 <button className={`text-base font-medium transition-colors flex items-center gap-1 ${
                   pathname.startsWith('/solutions') || pathname.startsWith('/products') ? 'text-red-600' : 'text-neutral-600 hover:text-neutral-900'
                 }`}>
-                  Solutions &amp; Product
+                  Service &amp; Solution
                   <svg className={`w-4 h-4 transition-transform ${isSolutionsOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>

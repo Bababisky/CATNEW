@@ -169,7 +169,7 @@ export default function HomePage() {
         <div className="container mx-auto px-8 max-w-7xl">
           <ScrollReveal>
             <h2 className="text-5xl font-bold mb-12">
-              Products <span className="text-red-600">&amp;</span> Solutions
+              Service <span className="text-red-600">&amp;</span> Solutions
             </h2>
           </ScrollReveal>
         </div>
@@ -268,7 +268,7 @@ export default function HomePage() {
         <div className="container mx-auto px-8 max-w-7xl">
           <ScrollReveal>
             <h2 className="text-5xl font-bold mb-12">
-              World Class Partnership
+              Service Partnership
             </h2>
           </ScrollReveal>
           <WorldClassPartnership />
