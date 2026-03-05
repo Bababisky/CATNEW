@@ -373,7 +373,7 @@ export default function SearchPage() {
               {!hasResults && (
                 <div className="text-center py-16">
                   <div className="text-6xl mb-4">🔍</div>
-                  <p className="text-xl text-neutral-400">No results found for "{searchQuery}"</p>
+                  <p className="text-xl text-neutral-400">No results found for &ldquo;{searchQuery}&rdquo;</p>
                   <p className="text-neutral-500 mt-2">Try searching with different keywords</p>
                 </div>
               )}

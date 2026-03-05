@@ -150,7 +150,7 @@ export default function CaseStudyDetailPage({ params }: PageProps) {
             {/* YIP's Assistance */}
             {caseStudy.assistance.length > 0 && (
               <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">YIP's Assistance</h2>
+                <h2 className="text-2xl font-bold mb-4">YIP&apos;s Assistance</h2>
                 <ul className="list-none space-y-2">
                   {caseStudy.assistance.map((item: string, index: number) => (
                     <li key={index} className="text-neutral-700 leading-relaxed">{item}</li>
