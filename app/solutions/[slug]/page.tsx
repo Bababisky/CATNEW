@@ -272,7 +272,7 @@ export default function SolutionDetailPage({ params }: { params: { slug: string 
       )}
 
       {/* All Solutions Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container mx-auto px-8 max-w-7xl">
           <ScrollReveal>
             <h2 className="text-4xl font-bold mb-12">Section</h2>
@@ -295,10 +295,10 @@ export default function SolutionDetailPage({ params }: { params: { slug: string 
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-red-600 to-red-500 text-white">
+      {/* <section className="py-20 bg-gradient-to-r from-red-600 to-red-500 text-white">
         <div className="container mx-auto px-8 max-w-4xl text-center">
           <ScrollReveal>
             <h2 className="text-4xl font-bold mb-6">
@@ -315,7 +315,7 @@ export default function SolutionDetailPage({ params }: { params: { slug: string 
             </Link>
           </ScrollReveal>
         </div>
-      </section>
+      </section> */}
     </PageTransition>
   );
 }
